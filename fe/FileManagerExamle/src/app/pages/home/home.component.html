@@ -1,6 +1,9 @@
 <h2 class="content-block">Home</h2>
 <div class="content-block">
   <div class="dx-card responsive-paddings">
-  
+    <dx-file-manager id="fileManager" [fileSystemProvider]="fileProvider" currentPath="Widescreen">
+      <dxo-permissions [create]="false" [copy]="false" [move]="false" [delete]="true" [rename]="false" [upload]="true" [download]="false"></dxo-permissions>
+      <dxo-upload [chunkSize]="102400" [maxFileSize]="1024 * 1024 * 1024"></dxo-upload>
+    </dx-file-manager>  
   </div>
 </div>
