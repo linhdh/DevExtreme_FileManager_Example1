@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false, 
-  //baseUrl: "http://localhost:5024"
-  baseUrl: "http://autoupdate.kloon.net:5024"
+  baseUrl: "http://localhost:5024"
+  //baseUrl: "http://autoupdate.kloon.net:5024"
 };
 
 /*
